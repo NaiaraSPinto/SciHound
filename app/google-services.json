@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "000000000000",
+    "firebase_url": "https://xxxxx.firebaseio.com",
+    "project_id": "xxxxxx",
+    "storage_bucket": "xxxxx.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:000000000000:android:XXXXXXXXXXXXXXXXXXXXXX",
+        "android_client_info": {
+          "package_name": "com.jpl.nasa.scihound"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "000000000000-XXXXX.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "XXXX"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "000000000000-XXXXX.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

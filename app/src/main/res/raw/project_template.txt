@@ -1,0 +1,86 @@
+Admin Information:
+
+Description:
+ae = admin email (The admin's email that the collected points will be sent to)
+vp = verification password
+cq = compression quality (Values must be in [0,100]. (High Quality : (90,100], Medium Quality : (80,90], Low Quality : (70,80]).)
+mnos = minimum number of satellites (The number of satellites that the user should have before collecting a point, higher for improved accuracy)[default is 10 which will give ~7m accuracy]
+st = Send type (either email or server)[server isn't completely implemented]
+
+START
+
+ae:
+
+vp:
+
+cq:
+70
+mnos:
+10
+st:
+server
+
+END
+
+----------------------------------------------------------
+
+Project Information:
+
+Description:
+pn = project name
+pil = project information link
+plcc = project land cover classes
+
+Important Note: There must be a newline in between projects.
+START
+
+pn:
+Floods
+pil:
+https://uavsar.jpl.nasa.gov/
+plcc:
+Open Water
+Tall Vegetation (Flooded)
+Tall Vegetation (Not Flooded)
+Grass (Flooded)
+Grass (Not Flooded)
+General Vegetation (Not Flooded)
+Agriculture (Not Flooded)
+Bare Ground (Not Flooded)
+Urban (Flooded)
+Urban (Not Flooded)
+
+pn:
+Oil Palms
+pil:
+https://uavsar.jpl.nasa.gov/
+plcc:
+Oil Palm
+Bare Ground
+Road
+Open Water
+Grass
+Inundated Vegetation
+Forest
+Other Plantation
+Unknown
+
+pn:
+Earthquakes
+pil:
+https://uavsar.jpl.nasa.gov/
+plcc:
+Buildings
+Houses
+Roads
+
+pn:
+Fire
+pil:
+https://google.com
+plcc:
+ground
+houses
+vegetation
+
+END

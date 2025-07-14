@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SciHound</string>
+    <string name="add_point"><b>Add Point</b></string>
+    <string name="submit"><b>Submit</b></string>
+    <string name="submit_points"><b>Submit Points</b></string>
+    <string name="mapbox_access_token">
+        pk.eyJ1Ijoia2V2aW5jdHJ1b25nMTEyIiwiYSI6ImNqeHpiNmdwdTAxODIzYm55dHhqaGwzYjAifQ.B8vCrZrZlNRwWrB6K83C5Q
+    </string>
+    <string name="link">If you do not have a SciHound account, please register at:\n <a href="https://github.jpl.nasa.gov/pages/nspinto/magnus.github.io/">https://github.jpl.nasa.gov/pages/nspinto/magnus.github.io/</a></string>
+</resources>
